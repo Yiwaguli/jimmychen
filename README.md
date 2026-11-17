@@ -11,12 +11,12 @@ pip install pillow
 python3 build.py
 ```
 
-Then commit and push. The generated pages (`index.html`, `about/`, `works/`) are committed alongside the source, so GitHub Pages needs no build step.
+Then commit and push. The generated pages (`index.html`, `about/`, `cv/`, `contact/`, `works/`) are committed alongside the source, so GitHub Pages needs no build step.
 
-- `content.py`: site text, the list of works, and the blocks on each work page
+- `content.py`: site text, CV, contact details, the list of works, and the blocks on each work page
 - `build.py`: turns `content.py` into HTML
 - `assets/css/style.css`: the design
-- `assets/works/<work>/`: images, each saved at 1800px and 900px wide (`name.jpg`, `name-900.jpg`)
+- `assets/works/<work>/`: images as WebP, each saved up to 1800px wide plus 1200px and 700px versions (`name.webp`, `name-1200.webp`, `name-700.webp`); `share.jpg` is the link-preview image
 - `assets/fonts/`: Newsreader, licensed under the SIL Open Font License (`OFL.txt`)
 
 ## Publishing

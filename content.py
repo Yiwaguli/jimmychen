@@ -20,7 +20,8 @@ SITE = {
     "name": "Jimmy Chen",
     "description": "Jimmy Chen is an artist and PhD researcher at the Creative Computing Institute, "
     "University of the Arts London, working across posthumanism, queer theory and multi-sensory HCI.",
-    "nav": [("Works", ""), ("About", "about/")],
+    "url": "https://yiwaguli.github.io/jimmychen/",
+    "nav": [("Works", ""), ("About", "about/"), ("CV", "cv/"), ("Contact", "contact/")],
 }
 
 ABOUT = {
@@ -40,31 +41,72 @@ ABOUT = {
         "presented at several academic conferences. He holds an MA in Digital Direction from the Royal "
         "College of Art and teaches as an Associate Lecturer at the Creative Computing Institute.",
     ],
-    "lists": [
-        (
-            "Selected exhibitions and performances",
-            [
-                ("2026", "<em>Ritual Robotics: The Fungal Act 01</em>, Being Human Festival, Lethaby Gallery, London"),
-                ("2026", "<em>Ritual Robotics: Act 01</em>, Ars Electronica, Linz"),
-            ],
-        ),
-        (
-            "Talks and workshops",
-            [
-                ("2025", "Visiting Research Panelist, graduate conference, Mahindra Humanities Center, Harvard University"),
-                ("", "Contributor and facilitator, <em>Rethinking Anthropocentrism: New Technologies and More-than-Human Sensing</em>, Leiden"),
-                ("", "Presenter, <em>No Future? Hopeful Worldings in Haunted Times</em>, University of Chichester"),
-            ],
-        ),
-        (
-            "Education",
-            [
-                ("Now", "PhD, Creative Computing Institute, University of the Arts London"),
-                ("2023", "MA Digital Direction, Royal College of Art"),
-            ],
-        ),
+}
+
+CONTACT = {
+    "lede": "For exhibitions, performances, collaborations and research conversations, please get in touch.",
+    "rows": [
+        ("Email", '<a href="mailto:cjm990603@gmail.com">cjm990603@gmail.com</a>'),
+        ("Instagram", '<a href="https://www.instagram.com/yiwaguli/" rel="noopener me">@yiwaguli</a>'),
     ],
 }
+
+# Each section: (heading, [(year, entry), ...]). Leave the year empty ("") when it is not known.
+CV = [
+    (
+        "Education",
+        [
+            ("Current", "PhD, Creative Computing Institute, University of the Arts London<br>"
+                        "<em>Queering with Fungi: Myceliating queer kinship and belonging through non-representational sensing</em>"),
+            ("2022&ndash;2023", "MA Digital Direction, Royal College of Art, London"),
+            ("", "Undergraduate degree in Economics, Hangzhou Normal University"),
+        ],
+    ),
+    (
+        "Teaching",
+        [
+            ("2026&ndash;", "Associate Lecturer, Creative Computing Institute, University of the Arts London<br>"
+                            "BSc (Hons) Computer Science: Research, Knowledge Exchange and Enterprise unit"),
+            ("2021&ndash;2023", "Assistant Tutor, Rosso Arts &amp; Design Education Institution, Hangzhou"),
+        ],
+    ),
+    (
+        "Exhibitions and performances",
+        [
+            ("2026", '<a href="../works/ritual-robotics-the-fungal-act-01/"><em>Ritual Robotics: The Fungal Act 01</em></a>, '
+                     "Being Human Festival, Lethaby Gallery, London"),
+            ("2026", '<a href="../works/ritual-robotics-act-01/"><em>Ritual Robotics: Act 01</em></a>, Ars Electronica, Linz'),
+        ],
+    ),
+    (
+        "Talks, conferences and workshops",
+        [
+            ("2026", "&lsquo;Queering with Fungi: Myceliating Queer Kinship and Belonging through Multisensory Immersion&rsquo;, "
+                     "<em>No Future? Hopeful Worldings in Haunted Times</em>, ASLE-UKI Postgraduate Conference, University of Chichester"),
+            ("", "&lsquo;Queering with Fungi&rsquo;, UAL Summer Symposium, University of the Arts London"),
+            ("2025", "Visiting Research Panelist, graduate conference, Mahindra Humanities Center, Harvard University"),
+            ("", "Contributor and facilitator, <em>Rethinking Anthropocentrism: New Technologies and More-than-Human Sensing</em>, workshop, Leiden"),
+        ],
+    ),
+    (
+        "Selected works",
+        [
+            ("2026", '<a href="../works/ritual-robotics-the-fungal-act-01/"><em>Ritual Robotics: The Fungal Act 01</em></a>, performance'),
+            ("2026", '<a href="../works/ritual-robotics-act-01/"><em>Ritual Robotics: Act 01</em></a>, participatory performance, with Joseph Whitmore'),
+            ("2023", '<a href="../works/journey-to-the-reishi/"><em>Journey to the Reishi</em></a>, multisensory VR'),
+            ("2023", '<a href="../works/armpit-kingdom/"><em>Armpit Kingdom</em></a>, multisensory VR and immersive exhibition, with Jing Sun and Shihui Liu'),
+            ("2022", '<a href="../works/ann/"><em>Ann</em></a>, short film'),
+            ("2021", '<a href="../works/delicious-me/"><em>Delicious Me</em></a>, 3D prototyping and photography'),
+            ("2020", '<a href="../works/schrodingers-cake/"><em>Schr&ouml;dinger&rsquo;s Cake</em></a>, short film'),
+        ],
+    ),
+    (
+        "Other experience",
+        [
+            ("", "Perfumery Consultant, John Lewis &amp; Partners"),
+        ],
+    ),
+]
 
 WORKS = [
     # ------------------------------------------------------------------
