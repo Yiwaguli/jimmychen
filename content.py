@@ -33,7 +33,7 @@ ABOUT = {
         "screens tend to leave out: smell, taste, touch and the felt weight of things. Earlier works "
         "used food, pheromones and edible objects to imagine how bodies might communicate beyond words. "
         "More recent work turns towards fungi, robotics and contemporary ritual.",
-        "His doctoral research, &lsquo;Queering with Fungi&rsquo;, explores multispecies relations through "
+        "His doctoral research, <a href=\"../research/\">&lsquo;Queering with Fungi&rsquo;</a>, explores multispecies relations through "
         "auto-ethnography and critical biodata interaction. Through embodied and non-representational "
         "methodologies, his practice challenges normative paradigms, disrupting extractivist "
         "technologies and advocating for radical reattunement.",
